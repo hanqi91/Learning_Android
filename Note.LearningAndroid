@@ -1,0 +1,8 @@
+package    //将相关的文件打包在一块儿，避免无法区分同名文件
+import    //导入其他包
+ActionBarActivity    //?
+void onCreate(Bundle savedInstanceState)    //在Activity创建时被系统调用，参数savedInstanceState保存实例状态
+super    //超类（也就是基类、父类）
+setContentView(int LayoutResID)    //按LayoutResID来设置Activity的布局
+getSupportFragmentManager()    //SupportFragment?
+beginTransaction()    //开启一个事务Transaction?
